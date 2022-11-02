@@ -1,6 +1,6 @@
 <?php
 
-$arquivo = fopen('lista-cursos.txt', 'r');
+$arquivo = fopen('01-lista-cursos.txt', 'r');
 
 while(!feof($arquivo)) {
     $curso = fgets($arquivo);

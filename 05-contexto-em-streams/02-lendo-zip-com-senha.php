@@ -6,6 +6,6 @@ $contexto = stream_context_create([
     ]
 ]);
 
-echo file_get_contents('zip://lista-cursos.zip#lista-cursos.txt', false, $contexto);
+echo file_get_contents('zip://lista-cursos.zip#01-lista-cursos.txt', false, $contexto);
 
 

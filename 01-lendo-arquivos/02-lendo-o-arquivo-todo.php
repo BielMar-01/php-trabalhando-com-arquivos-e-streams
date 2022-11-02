@@ -1,8 +1,8 @@
 <?php
 
-$arquivo = fopen('lista-cursos.txt', 'r'); // Abre o arquivo
+$arquivo = fopen('01-lista-cursos.txt', 'r'); // Abre o arquivo
 
-$tamanhoDoArquivo = filesize('lista-cursos.txt'); // Olha a quantidade de bites do arquivo
+$tamanhoDoArquivo = filesize('01-lista-cursos.txt'); // Olha a quantidade de bites do arquivo
 
 $cursos = fread($arquivo, $tamanhoDoArquivo); // Lendo todos os bites
 
